@@ -70,23 +70,23 @@ importers:
         specifier: ^2.7.1
         version: 2.7.1
       scratch-audio:
-        specifier: github:wycats/PenguinMod-Audio#wycats-main
-        version: https://codeload.github.com/wycats/PenguinMod-Audio/tar.gz/a60d7b212241a456a7b8f103a0912085ba4593a3
+        specifier: github:patternyard/PatternYard-Audio#wycats-main
+        version: https://codeload.github.com/patternyard/PatternYard-Audio/tar.gz/a60d7b212241a456a7b8f103a0912085ba4593a3
       scratch-render:
-        specifier: github:wycats/PenguinMod-Render#wycats-main
-        version: https://codeload.github.com/wycats/PenguinMod-Render/tar.gz/0070f57b71f49e970a5ff98276688ea174f78e1d(scratch-render-fonts@https://codeload.github.com/wycats/penguinmod-render-fonts/tar.gz/4dda62c707f64505266aa62f7a6cc84f0e5812fd)
+        specifier: github:patternyard/PatternYard-Render#wycats-main
+        version: https://codeload.github.com/patternyard/PatternYard-Render/tar.gz/2fbdb0d84a1546d494e31efb1648518a3b7c8dcb(scratch-render-fonts@https://codeload.github.com/patternyard/patternyard-render-fonts/tar.gz/4dda62c707f64505266aa62f7a6cc84f0e5812fd)
       scratch-render-fonts:
-        specifier: github:wycats/penguinmod-render-fonts#wycats-main
-        version: https://codeload.github.com/wycats/penguinmod-render-fonts/tar.gz/4dda62c707f64505266aa62f7a6cc84f0e5812fd
+        specifier: github:patternyard/patternyard-render-fonts#wycats-main
+        version: https://codeload.github.com/patternyard/patternyard-render-fonts/tar.gz/4dda62c707f64505266aa62f7a6cc84f0e5812fd
       scratch-storage:
-        specifier: github:wycats/PenguinMod-Storage#wycats-main
-        version: https://codeload.github.com/wycats/PenguinMod-Storage/tar.gz/687019085e83fc83d39f3b96b41f229e8d95d6bc(webpack@4.47.0)
+        specifier: github:patternyard/PatternYard-Storage#wycats-main
+        version: https://codeload.github.com/patternyard/PatternYard-Storage/tar.gz/687019085e83fc83d39f3b96b41f229e8d95d6bc(webpack@4.47.0)
       scratch-svg-renderer:
-        specifier: github:wycats/penguinmod-svg-renderer#wycats-main
-        version: '@turbowarp/scratch-svg-renderer@https://codeload.github.com/wycats/penguinmod-svg-renderer/tar.gz/24c56d268fd9d8b460aae125698dcbb18c66a359(scratch-render-fonts@https://codeload.github.com/wycats/penguinmod-render-fonts/tar.gz/4dda62c707f64505266aa62f7a6cc84f0e5812fd)'
+        specifier: github:patternyard/patternyard-svg-renderer#wycats-main
+        version: '@turbowarp/scratch-svg-renderer@https://codeload.github.com/patternyard/patternyard-svg-renderer/tar.gz/cac9800b9fbfa42b2131421f2d5fc6e383466a66(scratch-render-fonts@https://codeload.github.com/patternyard/patternyard-render-fonts/tar.gz/4dda62c707f64505266aa62f7a6cc84f0e5812fd)'
       scratch-vm:
-        specifier: github:wycats/PenguinMod-Vm#wycats-main
-        version: https://codeload.github.com/wycats/PenguinMod-Vm/tar.gz/dcbbafcef667d2a3bbb284755e89db141f0a3dd7(@turbowarp/scratch-svg-renderer@https://codeload.github.com/wycats/penguinmod-svg-renderer/tar.gz/24c56d268fd9d8b460aae125698dcbb18c66a359(scratch-render-fonts@https://codeload.github.com/wycats/penguinmod-render-fonts/tar.gz/4dda62c707f64505266aa62f7a6cc84f0e5812fd))(webpack@4.47.0)
+        specifier: github:patternyard/PatternYard-Vm#wycats-main
+        version: https://codeload.github.com/patternyard/PatternYard-Vm/tar.gz/881c4fb657b9a373718772751296a930e9dc99bd(@turbowarp/scratch-svg-renderer@https://codeload.github.com/patternyard/patternyard-svg-renderer/tar.gz/cac9800b9fbfa42b2131421f2d5fc6e383466a66(scratch-render-fonts@https://codeload.github.com/patternyard/patternyard-render-fonts/tar.gz/4dda62c707f64505266aa62f7a6cc84f0e5812fd))(webpack@4.47.0)
       style-loader:
         specifier: ^2.0.0
         version: 2.0.0(webpack@4.47.0)
@@ -870,11 +870,11 @@ packages:
     resolution: {integrity: sha512-845i/YnZN84qa515IjisJpUA+fCtYbh2Em50xVnc/375E1IoWngUwrjalH/1oUeZESXSIV4RII7MbzefS9FjtA==}
     hasBin: true
 
-  '@turbowarp/scratch-svg-renderer@https://codeload.github.com/wycats/penguinmod-svg-renderer/tar.gz/24c56d268fd9d8b460aae125698dcbb18c66a359':
-    resolution: {gitHosted: true, integrity: sha512-Ek6W16D3pVRNAH5aFEDvXY1Ek0v7OFA5BGlTIPWtv2NamcGrPieVrh6VrwmzI4DYqCvk0188ssKISopZnTSsFw==, tarball: https://codeload.github.com/wycats/penguinmod-svg-renderer/tar.gz/24c56d268fd9d8b460aae125698dcbb18c66a359}
+  '@turbowarp/scratch-svg-renderer@https://codeload.github.com/patternyard/patternyard-svg-renderer/tar.gz/cac9800b9fbfa42b2131421f2d5fc6e383466a66':
+    resolution: {gitHosted: true, tarball: https://codeload.github.com/patternyard/patternyard-svg-renderer/tar.gz/cac9800b9fbfa42b2131421f2d5fc6e383466a66}
     version: 1.0.0
     peerDependencies:
-      scratch-render-fonts: github:wycats/penguinmod-render-fonts#wycats-main
+      scratch-render-fonts: github:patternyard/patternyard-render-fonts#wycats-main
 
   '@turbowarp/startaudiocontext@1.0.0':
     resolution: {integrity: sha512-BJ7EVYVwuTH/Tr6tEaLaXA5TCi8qKxNWsxohNqxIEDzykN+FscgOALhEMUlNc6vgcmOi7yQFJ82Prx9bnY5DgA==}
@@ -4064,40 +4064,40 @@ packages:
     resolution: {integrity: sha512-pN/yOAvcC+5rQ5nERGuwrjLlYvLTbCibnZ1I7B1LaiAz9BRBlE9GMgE/eqV30P7aJQUf7Ddimy/RsbYO/GrVGg==}
     engines: {node: '>= 10.13.0'}
 
-  scratch-audio@https://codeload.github.com/wycats/PenguinMod-Audio/tar.gz/a60d7b212241a456a7b8f103a0912085ba4593a3:
-    resolution: {gitHosted: true, integrity: sha512-EZ+S0D8J7WJgJ7EbIXcAoPqUqvXloevH3cI8rj+WakAlGYGatlBH9N/kpqbcrhc1DCNik4cVDOisI3InolFOuw==, tarball: https://codeload.github.com/wycats/PenguinMod-Audio/tar.gz/a60d7b212241a456a7b8f103a0912085ba4593a3}
+  scratch-audio@https://codeload.github.com/patternyard/PatternYard-Audio/tar.gz/a60d7b212241a456a7b8f103a0912085ba4593a3:
+    resolution: {gitHosted: true, tarball: https://codeload.github.com/patternyard/PatternYard-Audio/tar.gz/a60d7b212241a456a7b8f103a0912085ba4593a3}
     version: 0.1.0
 
-  scratch-parser@https://codeload.github.com/wycats/PenguinMod-Parser/tar.gz/ad93a6d0d20bcb4374e531ecf20b87b861faf9fb:
-    resolution: {gitHosted: true, integrity: sha512-CgO1eYjVjlWpwiFZ1GgscLwkkpakZrNd8lus/mafmIBoGhOMoQJQknzweI7JZRgntcVDTLu7gMxvtJ1eqb8OuA==, tarball: https://codeload.github.com/wycats/PenguinMod-Parser/tar.gz/ad93a6d0d20bcb4374e531ecf20b87b861faf9fb}
+  scratch-parser@https://codeload.github.com/patternyard/PatternYard-Parser/tar.gz/ad93a6d0d20bcb4374e531ecf20b87b861faf9fb:
+    resolution: {gitHosted: true, tarball: https://codeload.github.com/patternyard/PatternYard-Parser/tar.gz/ad93a6d0d20bcb4374e531ecf20b87b861faf9fb}
     version: 0.0.0-development
     engines: {node: '>=8.0'}
 
-  scratch-render-fonts@https://codeload.github.com/wycats/penguinmod-render-fonts/tar.gz/4dda62c707f64505266aa62f7a6cc84f0e5812fd:
-    resolution: {gitHosted: true, integrity: sha512-HmATGft5Z3jTz+TPzoarvvJKKYgNT1tLvh0nDGrMz2reRGsStUEFC7Q47HGCjKsxLIE1c9kNk+tBImkbEBADpA==, tarball: https://codeload.github.com/wycats/penguinmod-render-fonts/tar.gz/4dda62c707f64505266aa62f7a6cc84f0e5812fd}
+  scratch-render-fonts@https://codeload.github.com/patternyard/patternyard-render-fonts/tar.gz/4dda62c707f64505266aa62f7a6cc84f0e5812fd:
+    resolution: {gitHosted: true, tarball: https://codeload.github.com/patternyard/patternyard-render-fonts/tar.gz/4dda62c707f64505266aa62f7a6cc84f0e5812fd}
     version: 1.0.0
 
-  scratch-render@https://codeload.github.com/wycats/PenguinMod-Render/tar.gz/0070f57b71f49e970a5ff98276688ea174f78e1d:
-    resolution: {gitHosted: true, integrity: sha512-flM4M03oGyyIPCsWv9wSYppBAGwUp8JJmWtpySkOsg+/yBG/guxSAnjnmWBgz7JKr2OTGaIWeprlWZmw0fi+JA==, tarball: https://codeload.github.com/wycats/PenguinMod-Render/tar.gz/0070f57b71f49e970a5ff98276688ea174f78e1d}
+  scratch-render@https://codeload.github.com/patternyard/PatternYard-Render/tar.gz/2fbdb0d84a1546d494e31efb1648518a3b7c8dcb:
+    resolution: {gitHosted: true, tarball: https://codeload.github.com/patternyard/PatternYard-Render/tar.gz/2fbdb0d84a1546d494e31efb1648518a3b7c8dcb}
     version: 0.1.0
     peerDependencies:
-      scratch-render-fonts: github:wycats/penguinmod-render-fonts#wycats-main
+      scratch-render-fonts: github:patternyard/patternyard-render-fonts#wycats-main
 
   scratch-sb1-converter@0.2.7:
     resolution: {integrity: sha512-MF1NzmRLbgCiq7wiSTuk2C9rQC8uM5Wj7SaYsn1SEMWNK9rtK0uc3LSm8FnEt14QS/1Icx2YgMsUPKR0HaPDdQ==}
 
-  scratch-storage@https://codeload.github.com/wycats/PenguinMod-Storage/tar.gz/687019085e83fc83d39f3b96b41f229e8d95d6bc:
-    resolution: {gitHosted: true, integrity: sha512-H1IuiZsu9c9iGlhNVX9UbYqp/Z3iO9pDBQmqrMlTamhnbPYgguIchTORSdwn/0w/TYgj11BMeCZJSrgmVEHSqQ==, tarball: https://codeload.github.com/wycats/PenguinMod-Storage/tar.gz/687019085e83fc83d39f3b96b41f229e8d95d6bc}
+  scratch-storage@https://codeload.github.com/patternyard/PatternYard-Storage/tar.gz/687019085e83fc83d39f3b96b41f229e8d95d6bc:
+    resolution: {gitHosted: true, tarball: https://codeload.github.com/patternyard/PatternYard-Storage/tar.gz/687019085e83fc83d39f3b96b41f229e8d95d6bc}
     version: 0.0.0-development
 
   scratch-translate-extension-languages@0.0.20191118205314:
     resolution: {integrity: sha512-r0lvpgQjPMjbhI2wROrgoXzBhCvWJdkbAqJMfl2CdNqrwBpUXqLvNNtI3VtNLPJAcp9VfxEylkU9lVZ0gvU46Q==}
 
-  scratch-vm@https://codeload.github.com/wycats/PenguinMod-Vm/tar.gz/dcbbafcef667d2a3bbb284755e89db141f0a3dd7:
-    resolution: {gitHosted: true, integrity: sha512-vqBYTcwZiyqKcqsviYo1tQUt8yAmPJwINqlxirA3/aHYETOZ+moh88RTPi6so8QqvqIzmamzGPUQXlVetpV4Sw==, tarball: https://codeload.github.com/wycats/PenguinMod-Vm/tar.gz/dcbbafcef667d2a3bbb284755e89db141f0a3dd7}
+  scratch-vm@https://codeload.github.com/patternyard/PatternYard-Vm/tar.gz/881c4fb657b9a373718772751296a930e9dc99bd:
+    resolution: {gitHosted: true, tarball: https://codeload.github.com/patternyard/PatternYard-Vm/tar.gz/881c4fb657b9a373718772751296a930e9dc99bd}
     version: 0.2.0
     peerDependencies:
-      scratch-svg-renderer: github:wycats/penguinmod-svg-renderer#wycats-main
+      scratch-svg-renderer: github:patternyard/patternyard-svg-renderer#wycats-main
 
   seedrandom@3.0.5:
     resolution: {integrity: sha512-8OwmbklUNzwezjGInmZ+2clQmExQPvomqjL7LFqOYqtmuxRgQYqOD3mHaU+MvZn5FLUeVxVfQjwLZW/n/JFuqg==}
@@ -6010,13 +6010,13 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  '@turbowarp/scratch-svg-renderer@https://codeload.github.com/wycats/penguinmod-svg-renderer/tar.gz/24c56d268fd9d8b460aae125698dcbb18c66a359(scratch-render-fonts@https://codeload.github.com/wycats/penguinmod-render-fonts/tar.gz/4dda62c707f64505266aa62f7a6cc84f0e5812fd)':
+  '@turbowarp/scratch-svg-renderer@https://codeload.github.com/patternyard/patternyard-svg-renderer/tar.gz/cac9800b9fbfa42b2131421f2d5fc6e383466a66(scratch-render-fonts@https://codeload.github.com/patternyard/patternyard-render-fonts/tar.gz/4dda62c707f64505266aa62f7a6cc84f0e5812fd)':
     dependencies:
       '@turbowarp/nanolog': 0.2.0
       base64-js: 1.2.1
       base64-loader: 1.0.0
       dompurify: 2.5.9
-      scratch-render-fonts: https://codeload.github.com/wycats/penguinmod-render-fonts/tar.gz/4dda62c707f64505266aa62f7a6cc84f0e5812fd
+      scratch-render-fonts: https://codeload.github.com/patternyard/patternyard-render-fonts/tar.gz/4dda62c707f64505266aa62f7a6cc84f0e5812fd
       transformation-matrix: 1.15.0
 
   '@turbowarp/startaudiocontext@1.0.0': {}
@@ -9905,23 +9905,23 @@ snapshots:
       ajv: 6.15.0
       ajv-keywords: 3.5.2(ajv@6.15.0)
 
-  scratch-audio@https://codeload.github.com/wycats/PenguinMod-Audio/tar.gz/a60d7b212241a456a7b8f103a0912085ba4593a3:
+  scratch-audio@https://codeload.github.com/patternyard/PatternYard-Audio/tar.gz/a60d7b212241a456a7b8f103a0912085ba4593a3:
     dependencies:
       '@turbowarp/startaudiocontext': 1.0.0
       minilog: 3.1.0
 
-  scratch-parser@https://codeload.github.com/wycats/PenguinMod-Parser/tar.gz/ad93a6d0d20bcb4374e531ecf20b87b861faf9fb:
+  scratch-parser@https://codeload.github.com/patternyard/PatternYard-Parser/tar.gz/ad93a6d0d20bcb4374e531ecf20b87b861faf9fb:
     dependencies:
       '@turbowarp/json': 0.1.2
       ajv: 6.3.0
       jszip: 3.1.5
       pify: 4.0.1
 
-  scratch-render-fonts@https://codeload.github.com/wycats/penguinmod-render-fonts/tar.gz/4dda62c707f64505266aa62f7a6cc84f0e5812fd:
+  scratch-render-fonts@https://codeload.github.com/patternyard/patternyard-render-fonts/tar.gz/4dda62c707f64505266aa62f7a6cc84f0e5812fd:
     dependencies:
       base64-loader: 1.0.0
 
-  scratch-render@https://codeload.github.com/wycats/PenguinMod-Render/tar.gz/0070f57b71f49e970a5ff98276688ea174f78e1d(scratch-render-fonts@https://codeload.github.com/wycats/penguinmod-render-fonts/tar.gz/4dda62c707f64505266aa62f7a6cc84f0e5812fd):
+  scratch-render@https://codeload.github.com/patternyard/PatternYard-Render/tar.gz/2fbdb0d84a1546d494e31efb1648518a3b7c8dcb(scratch-render-fonts@https://codeload.github.com/patternyard/patternyard-render-fonts/tar.gz/4dda62c707f64505266aa62f7a6cc84f0e5812fd):
     dependencies:
       grapheme-breaker: 0.3.2
       hull.js: 0.2.10
@@ -9929,8 +9929,8 @@ snapshots:
       linebreak: 0.3.0
       minilog: 3.1.0
       raw-loader: 0.5.1
-      scratch-render-fonts: https://codeload.github.com/wycats/penguinmod-render-fonts/tar.gz/4dda62c707f64505266aa62f7a6cc84f0e5812fd
-      scratch-svg-renderer: '@turbowarp/scratch-svg-renderer@https://codeload.github.com/wycats/penguinmod-svg-renderer/tar.gz/24c56d268fd9d8b460aae125698dcbb18c66a359(scratch-render-fonts@https://codeload.github.com/wycats/penguinmod-render-fonts/tar.gz/4dda62c707f64505266aa62f7a6cc84f0e5812fd)'
+      scratch-render-fonts: https://codeload.github.com/patternyard/patternyard-render-fonts/tar.gz/4dda62c707f64505266aa62f7a6cc84f0e5812fd
+      scratch-svg-renderer: '@turbowarp/scratch-svg-renderer@https://codeload.github.com/patternyard/patternyard-svg-renderer/tar.gz/cac9800b9fbfa42b2131421f2d5fc6e383466a66(scratch-render-fonts@https://codeload.github.com/patternyard/patternyard-render-fonts/tar.gz/4dda62c707f64505266aa62f7a6cc84f0e5812fd)'
       twgl.js: 4.4.0
 
   scratch-sb1-converter@0.2.7:
@@ -9939,7 +9939,7 @@ snapshots:
       minilog: 3.1.0
       text-encoding: 0.7.0
 
-  scratch-storage@https://codeload.github.com/wycats/PenguinMod-Storage/tar.gz/687019085e83fc83d39f3b96b41f229e8d95d6bc(webpack@4.47.0):
+  scratch-storage@https://codeload.github.com/patternyard/PatternYard-Storage/tar.gz/687019085e83fc83d39f3b96b41f229e8d95d6bc(webpack@4.47.0):
     dependencies:
       arraybuffer-loader: 1.0.8
       base64-js: 1.3.0
@@ -9953,7 +9953,7 @@ snapshots:
 
   scratch-translate-extension-languages@0.0.20191118205314: {}
 
-  scratch-vm@https://codeload.github.com/wycats/PenguinMod-Vm/tar.gz/dcbbafcef667d2a3bbb284755e89db141f0a3dd7(@turbowarp/scratch-svg-renderer@https://codeload.github.com/wycats/penguinmod-svg-renderer/tar.gz/24c56d268fd9d8b460aae125698dcbb18c66a359(scratch-render-fonts@https://codeload.github.com/wycats/penguinmod-render-fonts/tar.gz/4dda62c707f64505266aa62f7a6cc84f0e5812fd))(webpack@4.47.0):
+  scratch-vm@https://codeload.github.com/patternyard/PatternYard-Vm/tar.gz/881c4fb657b9a373718772751296a930e9dc99bd(@turbowarp/scratch-svg-renderer@https://codeload.github.com/patternyard/patternyard-svg-renderer/tar.gz/cac9800b9fbfa42b2131421f2d5fc6e383466a66(scratch-render-fonts@https://codeload.github.com/patternyard/patternyard-render-fonts/tar.gz/4dda62c707f64505266aa62f7a6cc84f0e5812fd))(webpack@4.47.0):
     dependencies:
       '@turbowarp/json': 0.1.2
       '@vernier/godirect': 1.5.0
@@ -9977,9 +9977,9 @@ snapshots:
       minilog: 3.1.0
       pathfinding: 0.4.18
       schema-utils: 2.7.1
-      scratch-parser: https://codeload.github.com/wycats/PenguinMod-Parser/tar.gz/ad93a6d0d20bcb4374e531ecf20b87b861faf9fb
+      scratch-parser: https://codeload.github.com/patternyard/PatternYard-Parser/tar.gz/ad93a6d0d20bcb4374e531ecf20b87b861faf9fb
       scratch-sb1-converter: 0.2.7
-      scratch-svg-renderer: '@turbowarp/scratch-svg-renderer@https://codeload.github.com/wycats/penguinmod-svg-renderer/tar.gz/24c56d268fd9d8b460aae125698dcbb18c66a359(scratch-render-fonts@https://codeload.github.com/wycats/penguinmod-render-fonts/tar.gz/4dda62c707f64505266aa62f7a6cc84f0e5812fd)'
+      scratch-svg-renderer: '@turbowarp/scratch-svg-renderer@https://codeload.github.com/patternyard/patternyard-svg-renderer/tar.gz/cac9800b9fbfa42b2131421f2d5fc6e383466a66(scratch-render-fonts@https://codeload.github.com/patternyard/patternyard-render-fonts/tar.gz/4dda62c707f64505266aa62f7a6cc84f0e5812fd)'
       scratch-translate-extension-languages: 0.0.20191118205314
       simplex-noise: 4.0.3
       taffydb: 2.7.3
