@@ -30,7 +30,7 @@ If this is set to an empty string, the link is removed.
 */
 
 module.exports = {
-  APP_NAME: 'PenguinMod Packager',
+  APP_NAME: 'PatternYard Packager',
   WEBSITE: 'https://studio.penguinmod.com/PenguinMod-Packager/',
   COPYRIGHT_NOTICE: `Copyright (C) 2021-2022 Thomas Weber
 
@@ -46,14 +46,14 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.`,
   ACCENT_COLOR: '#00c3ff',
-  SOURCE_CODE: 'https://github.com/PenguinMod/PenguinMod-Packager',
+  SOURCE_CODE: 'https://github.com/PatternYard/PatternYard-Packager',
   FEEDBACK_PRIMARY: {
     name: 'Discord',
     link: 'https://discord.gg/NZ9MBMYTZh'
   },
   FEEDBACK_SECONDARY: {
     name: 'GitHub',
-    link: 'https://github.com/PenguinMod/PenguinMod-Packager/issues'
+    link: 'https://github.com/PatternYard/PatternYard-Packager/issues'
   },
   DONATE: 'https://penguinmod.com/donate',
   PRIVACY_POLICY: 'https://turbowarp.org/privacy.html',

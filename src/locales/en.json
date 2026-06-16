@@ -1,7 +1,7 @@
 {
   "p4": {
     "description1": {
-      "string": "Converts PenguinMod projects into HTML files, zip archives, or executable programs for Windows, macOS, and Linux."
+      "string": "Converts PatternYard projects into HTML files, zip archives, or executable programs for Windows, macOS, and Linux."
     },
     "description2": {
       "string": "If you just want an easy way to embed a project into your website, you may be interested in {embedding}."
@@ -119,11 +119,11 @@
       "string": "Select Project"
     },
     "selectHelp": {
-      "string": "Select the project you want to package by copying and pasting the PenguinMod project link or using one of the other modes. If you use a project you didn't make, make sure to credit the creator."
+      "string": "Select the project you want to package by copying and pasting the PatternYard project link or using one of the other modes. If you use a project you didn't make, make sure to credit the creator."
     },
     "id": {
-      "string": "PenguinMod Project ID or URL",
-      "context": "Radio option to select a project from the PenguinMod website"
+      "string": "PatternYard Project ID or URL",
+      "context": "Radio option to select a project from the PatternYard website"
     },
     "file": {
       "string": "File",
@@ -131,7 +131,7 @@
     },
     "url": {
       "string": "Other URL",
-      "context": "Radio option to choose a project from a non-PenguinMod URL"
+      "context": "Radio option to choose a project from a non-PatternYard URL"
     },
     "loadProject": {
       "string": "Load Project",
