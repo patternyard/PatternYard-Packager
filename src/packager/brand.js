@@ -31,7 +31,7 @@ If this is set to an empty string, the link is removed.
 
 module.exports = {
   APP_NAME: 'PatternYard Packager',
-  WEBSITE: 'https://studio.penguinmod.com/PenguinMod-Packager/',
+  WEBSITE: 'https://studio.patternyard.dev/PenguinMod-Packager/',
   COPYRIGHT_NOTICE: `Copyright (C) 2021-2022 Thomas Weber
 
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -55,6 +55,6 @@ limitations under the License.`,
     name: 'GitHub',
     link: 'https://github.com/PatternYard/PatternYard-Packager/issues'
   },
-  DONATE: 'https://penguinmod.com/donate',
+  DONATE: 'https://patternyard.dev/donate',
   PRIVACY_POLICY: 'https://turbowarp.org/privacy.html',
 };

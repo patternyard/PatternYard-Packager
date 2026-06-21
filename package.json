@@ -30,7 +30,7 @@
     "type": "git",
     "url": "https://github.com/patternyard/PatternYard-Packager.git"
   },
-  "funding": "https://penguinmod.com/donate",
+  "funding": "https://patternyard.dev/donate",
   "license": "Apache-2.0",
   "dependencies": {
     "@fiahfy/icns": "0.0.7",
