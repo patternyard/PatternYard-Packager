@@ -36,7 +36,7 @@ const fromURL = async (url, progressCallback) => {
 };
 
 const fromID = (id, token, progressCallback) => {
-  const tokenPart = token ? `?token=${token}` : '';
+  const tokenPart = token ? `&token=${token}` : '';
   const url = `https://api.patternyard.dev/api/projects/getPublished?type=file&id=${id}${tokenPart}`;
   return fromURL(url, progressCallback);
 };
