@@ -4,11 +4,7 @@ import request from '../common/request';
 const getProjectMetadata = async (id) => {
   try {
     const meta = await request({
-      url: [
-        // Hopefully one of these URLs won't be blocked.
-        `https://api.patternyard.dev/api/projects/getPublished?id=${id}`,
-        `https://api.patternyard.dev/api/projects/getPublished?id=${id}`
-      ],
+      url: `https://api.patternyard.dev/api/projects/getPublished?id=${id}`,
       type: 'json'
     });
     return {
