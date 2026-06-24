@@ -34,7 +34,7 @@
       "context": "Error displayed when the packager detects that you are using an old version and that you must refresh to continue."
     },
     "cannotAccessProject": {
-      "string": "Can't access the project. This usually means the project doesn't exist, the ID is invalid, the project was deleted, or your network is blocking projects.penguinmod.com.",
+      "string": "Can't access the project. This usually means the project doesn't exist, the ID is invalid, the project was deleted, or your network is blocking api.patternyard.dev.",
       "context": "Part of the error modal when loading an inaccessible project."
     },
     "cannotAccessProjectCaching": {

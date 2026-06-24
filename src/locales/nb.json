@@ -125,7 +125,7 @@
     "p4": {
         "browserNotSupported": "Nettleseren støttes ikke",
         "browserNotSupportedDescription": "Vennligst oppdater nettleseren din.",
-        "cannotAccessProject": "Kan ikke få tilgang til prosjektetoken. Dette betyr vanligvis at prosjektet ikke er delt, aldri har eksistert, ID-en er ugyldig, eller nettverket ditt blokkerer penguinmod.com.",
+        "cannotAccessProject": "Kan ikke få tilgang til prosjektetoken. Dette betyr vanligvis at prosjektet ikke er delt, aldri har eksistert, ID-en er ugyldig, eller nettverket ditt blokkerer api.patternyard.dev.",
         "cannotAccessProjectCaching": "Hvis prosjektet ble delt nylig, kan det ta noen minutter før denne meldingen forsvinner.",
         "close": "Lukk",
         "description1": "Konverterer Scratch-prosjekter til HTML-filer, zip-arkiver eller kjørbare programmer for Windows, macOS og Linux.",
