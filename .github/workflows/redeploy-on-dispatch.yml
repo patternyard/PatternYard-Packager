@@ -1,0 +1,32 @@
+# Rebuilds + redeploys the patternyard-packager Vercel project when an upstream engine
+# repo (Vm / Render / Parser, etc.) fires a repository_dispatch.
+#
+# The offline packager bundles the VM/engine, so when those upstream repos change it must
+# rebuild to embed the new engine. The patternyard-packager project deploys via Vercel's
+# git integration (a push to wycats-main auto-deploys), so for *upstream* changes that don't
+# touch this repo we trigger a fresh build by POSTing to a Vercel Deploy Hook.
+#
+# Required secret:
+#   VERCEL_DEPLOY_HOOK - a Vercel Deploy Hook URL for the patternyard-packager project.
+#     Create at: Vercel > patternyard-packager > Settings > Git > Deploy Hooks
+#     (name it e.g. "dispatch", branch "wycats-main"), then add the generated URL as a repo
+#     secret named VERCEL_DEPLOY_HOOK.
+name: Redeploy on dispatch
+
+on:
+  repository_dispatch:
+    types: [update]
+  workflow_dispatch:
+
+jobs:
+  redeploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Vercel deploy hook
+        run: |
+          if [ -z "${{ secrets.VERCEL_DEPLOY_HOOK }}" ]; then
+            echo "::error::VERCEL_DEPLOY_HOOK secret is not set. See workflow header for setup."
+            exit 1
+          fi
+          curl -fsS -X POST "${{ secrets.VERCEL_DEPLOY_HOOK }}" \
+            && echo "Deploy hook triggered."
